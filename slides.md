@@ -97,5 +97,21 @@ src: ./slides/1_intro.md
 ---
 
 ---
+src: ./slides/2_bagging.md
+---
+
+---
+src: ./slides/3_boosting.md
+---
+
+---
+src: ./slides/4_gradient_boosting.md
+---
+
+---
+src: ./slides/5_model_stacking.md
+---
+
+---
 src: ./slides/0_end.md
 ---

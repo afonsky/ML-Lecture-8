@@ -50,12 +50,12 @@
 
 * Ensemble models combine several base learners to improve overall prediction accuracy and robustness
   * Base learners are usually decision trees
-    * But why?
 
 * Ensemble methods can reduce variance, handle model bias, and approximate complex relationships better than single models
 
 * Real-world inspiration: the ability to communicate, especially as part of the decision-making process, is a characteristic human trait
-  * "Two heads are better than one"
+  * ["Two heads are better than one"](https://en.wiktionary.org/wiki/two_heads_are_better_than_one)
+  * [“Wisdom of the crowd”](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd)
 </v-clicks>
 </div>
 <div>
@@ -72,7 +72,25 @@
 
 ---
 
-# Weak and Strong Base Learners
+# Why Trees as Base Learners?
+
+<center>
+<figure>
+  <img src="/int_vs_flex.png" style="width: 430px; position: relative">
+  <figcaption style="color:#b3b3b3ff; font-size: 11px;"><br>Based on  <a href="https://www.statlearning.com/">ISLP Fig. 2.7</a>
+</figcaption>
+</figure>
+</center>
+
+* Trees are:
+  * Still being interpreted, but a fairly flexible models
+  * Computationally feasible w.r.t other flexible models
+  * Can handle qualitative and quantitative predictors at once
+
+
+---
+
+# Strong and Weak Base Learners
 
 <br>
 <div class="grid grid-cols-[3fr_4fr_3fr] gap-5">
@@ -106,7 +124,7 @@
 
 ---
 
-# Weak and Strong Base Learners
+# Strong and Weak Base Learners
 
 * Let:
   * $\textcolor{green}{\delta} \in (0, 1)$ be **tolerance of uncertainty**
@@ -149,19 +167,35 @@ at least $m$ i.i.d. samples from the true distribution, we have:
 
 # Hidden Strength of Weak Learners
 
-* A set of weak learners can be combined into a strong learner
+<div class="grid grid-cols-[4fr_3fr] gap-30">
+<div>
 
-* This idea is used in 3 approaches:
-  * Bagging
-    * Random Forest
-  * Boosting
-  * Stacking
+#### A set of weak learners can be combined into a strong learner
+<br>
+  <figure>
+    <img src="/gravity_falls_gnomes.jpg" style="width: 230px; position: relative">
+    <figcaption style="color:#b3b3b3ff; font-size: 11px;"><br>Image source:
+    Gravity Falls, animated television series created by Alex Hirsch for Disney Channel and Disney XD (2012-2016)
+    </figcaption>
+  </figure>
+</div>
+<div>
 
----
+<br>
 
-# Why Trees?
+#### This idea is used in the following approaches
 
-* Trees are:
-  * Flexible models
-  * Computationally feasible w.r.t other flexible models
-  * Can handle qualitative and quantitative predictors at once
+<br>
+<center>
+
+```mermaid {securityLevel: 'loose', theme: 'neutral', scale: 1.0, flowchart: {'htmlLabels': true}}
+graph TD
+
+A(<p style="width:200px;height:25px;">Ensemble Models</p>) --> B(<p style="width:70px;height:25px;">Bagging</p>)
+A --> C(<p style="width:70px;height:25px;">Boosting</p>)
+B --> D(<p style="width:70px;height:50px;">Random<br>Forests</p>)
+A --> F(<p style="width:70px;height:25px;">Stacking</p>)
+```
+</center>
+</div>
+</div>
