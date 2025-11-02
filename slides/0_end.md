@@ -11,6 +11,8 @@
 		* **Boosting**
 	* Both typically use a large amount of learners
 
+* **Gradient boosting** is a boosting technique<br> that directly optimizes a ***differentiable loss function*** using ***gradient descent***
+
 * We combine learners of different types using **stacking**
 </v-clicks>
 
