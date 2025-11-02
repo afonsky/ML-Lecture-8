@@ -237,7 +237,7 @@ zoom: 1.2
 
 * [LightGBM](https://github.com/microsoft/LightGBM) - Light Gradient-Boosting Machine (2016)
 
-* [CatBoost](https://catboost.ai/)
+* [CatBoost](https://catboost.ai/) (2017)
 
 ---
 
