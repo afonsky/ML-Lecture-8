@@ -32,12 +32,12 @@ title: Regression
 ---
 stateDiagram-v2
     direction LR
-    X --> LogReg
+    X --> LinReg
     X --> Tree
-    X --> kNN
+    X --> Lasso
     Tree --> Meta
-    LogReg --> Meta
-    kNN --> Meta
+    LinReg --> Meta
+    Lasso --> Meta
     Meta --> y
 ```
 </div>
