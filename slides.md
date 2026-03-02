@@ -29,23 +29,22 @@ drawings:
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 
-title: Machine Learning
+title: Machine Learning 1
 hideInToc: true
 subtitle: Ensemble Models
-date: 03/11/2025
+date: 03/03/2026
 venue: HSE
-author: Alexey Boldyrev
+author: Alexey Boldyrev, Maksim Karpov
 ---
 
 <br>
 <br>
 <br>
-<br>
 
-# <span style="font-size:32.0pt" v-html="$slidev.configs.title?.replaceAll(' ', '<br/>')"></span>
-# <span style="font-size:32.0pt" v-html="$slidev.configs.subtitle?.replaceAll(' ', '<br/>')"></span>
-# <span style="font-size:18.0pt" v-html="$slidev.configs.author?.replaceAll(' ', '<br/>')"></span>
-# <span style="font-size:18.0pt" v-html="$slidev.configs.date?.replaceAll(' ', '<br/>')"></span>
+# <span style="font-size:32.0pt" v-html="$slidev.configs.title?.replaceAll(' ', '<br/>')"></span>
+# <span style="font-size:32.0pt" v-html="$slidev.configs.subtitle?.replaceAll(' ', '<br/>')"></span>
+# <span style="font-size:18.0pt" v-html="$slidev.configs.author?.replaceAll(' ', '<br/>')"></span>
+<span style="font-size:18.0pt" v-html="$slidev.configs.date?.replaceAll(' ', '<br/>')"></span>
 <div>
 
 <span style="color:#b3b3b3ff; font-size: 11px; line-height: 1.5em; float: right;">Image credit: ‘The Mayﬂower at Sea’<br> by Granville Perkins, 1876<br>
@@ -57,39 +56,13 @@ Wallach Division Picture Collection<br> The New York Public Library.
   <img src="/logo/FCS_logo_full_L.svg" class="h-18">
 </div>
 
-<div class="abs-tl mx-5 my-30">
-  <img src="/logo/DSBA_logo.png" class="h-28">
-</div>
-
 <div class="abs-tr mx-5 my-5">
-  <img src="/logo/ICEF_logo.png" class="h-28">
+  <img src="/logo/DSBA_logo.png" class="h-28">
 </div>
 
 <style>
   :deep(footer) { padding-bottom: 3em !important; }
 </style>
-
-
-
-<div class="abs-tl mx-5 my-10">
-  <img src="/logo/FCS_logo_full_L.svg" class="h-18">
-</div>
-
-<div class="abs-tl mx-5 my-30">
-  <img src="/logo/DSBA_logo.png" class="h-28">
-</div>
-
-<div class="abs-tr mx-5 my-5">
-  <img src="/logo/ICEF_logo.png" class="h-28">
-</div>
-
-<style>
-  :deep(footer) { padding-bottom: 3em !important; }
-</style>
-
-<!--
-NB: This demo uses a custom syntax (using preparser extensions), with all the @@@@.
--->
 
 
 ---
