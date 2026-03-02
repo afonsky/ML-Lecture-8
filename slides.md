@@ -39,12 +39,20 @@ author: Alexey Boldyrev, Maksim Karpov
 
 <br>
 <br>
+
+# Machine Learning 1
+
 <br>
 
-# <span style="font-size:32.0pt" v-html="$slidev.configs.title?.replaceAll(' ', '<br/>')"></span>
-# <span style="font-size:32.0pt" v-html="$slidev.configs.subtitle?.replaceAll(' ', '<br/>')"></span>
-# <span style="font-size:18.0pt" v-html="$slidev.configs.author?.replaceAll(' ', '<br/>')"></span>
-<span style="font-size:18.0pt" v-html="$slidev.configs.date?.replaceAll(' ', '<br/>')"></span>
+# Ensemble Models
+
+<br>
+
+## Alexey Boldyrev, Maksim Karpov
+
+<br>
+
+### 03/03/2026
 <div>
 
 <span style="color:#b3b3b3ff; font-size: 11px; line-height: 1.5em; float: right;">Image credit: ‘The Mayﬂower at Sea’<br> by Granville Perkins, 1876<br>
